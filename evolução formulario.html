@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo formulario.css">
+    <title>1° Formulario</title>
+</head>
+
+<body>
+
+    <div class="img-container">
+        <img src="file:///C:/Users/USUARIO/Documents/eu/PROGRAMA%C3%87%C3%83O/design/shopping.png" alt="logo bruna">
+
+    </div>
+
+    <form>
+
+        <h1> FORMULARIO</h1>
+
+        <br>
+        <br>
+        <strong>
+            <label for="nome">Nome:</label>
+        </strong>
+        <input type="text" name="nome" id="nome" required>
+        </br>
+        </br>
+
+        <br>
+        <br>
+        <strong>
+            <label for="email">E-mail:</label>
+        </strong>
+        <input type="text" id="email" required>
+        </br>
+        </br>
+
+        <br>
+        <br>
+        <strong>
+            <label for="contato">Contato:</label>
+        </strong>
+        <input type="number" id="number" required>
+        </br>
+        </br>
+
+        <br>
+        <br>
+        <strong>
+            <label for="data-de-nascimento"> Data de Nascimento:</label>
+        </strong>
+        <input type="date" name="data-de-nascimento" id="nome" required>
+        </br>
+        </br>
+
+        <div>
+            <strong><label>Escolaridade</label></strong>
+            <input type="radio" class="custom-radio" name="option" id="option1" checked>
+            <label for="option1">Ensino Fundamental</label>
+            <input type="radio" name="option" id="option2">
+            <label for="option2">Ensino Medio</label>
+            <input type="radio" name="option" id="option3">
+            <label for="option3">Ensino Superior</label>
+
+        </div>
+
+        <br>
+        <br>
+        <strong>
+            <label>Sexo:</label>
+        </strong>
+
+        <select name="sexo" id="sexo" required>
+            <option value=" " disabled selected hidden>SELECIONE</option>
+            <option value=" ">MASCULINO</option>
+            <option value=" ">FEMININO</option>
+            <option value=" ">OUTRO</option>
+        </select>
+        </br>
+        </br>
+
+        <br>
+        <br>
+        <strong>
+            <label>Nome da Mãe:</label>
+        </strong>
+        <input type="text" name="nome" id="nome" required>
+        </br>
+        </br>
+
+        <br>
+        <br>
+        <strong>
+            <label>Habilidades</label>
+        </strong>
+        <input type="checkbox" name="opcao1" id="opcao1">
+        <label for="opcao1"> Pensamento criativo </label>
+        <input type="checkbox" name="opcao2" id="opcao2">
+        <label for="opicao2"> Autoconfiança </label>
+        <input type="checkbox" name="opcao3" id="opcao3">
+        <label for="opcao3"> Proatividade </label> <br>
+        <input type="checkbox" name="opcao4" id="opcao4">
+        <label for="opcao4"> Trabalho em equipe </label>
+        <input type="checkbox" name="opcao5" id="opcao5">
+        <label for="opcao5"> Liderança </label>
+        <input type="checkbox" name="opcao6" id="opcao6">
+        <label for="opcao6"> Foco em resultados</label>
+
+        </br>
+        </br>
+
+        <br>
+        <br>
+        <strong>
+            <label>Fale um pouco sobre você:</label>
+        </strong>
+        <br>
+        <br>
+        <textarea name="mensagem" id="mensagem" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="button" value="Cancelar">
+
+    </form>
+
+</body>
+
+
+</html>
