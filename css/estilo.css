@@ -4,6 +4,10 @@ body {
     background-size: 120% 120%;
 }
 
+.img-container {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color:  #15e9eb;
@@ -24,6 +28,14 @@ form {
     color: rgb(40, 50, 80);
 }
 
-.img-container {
+.nome {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color:  #54129e;
+  }
+  
+  footer {
+    width: 100%;
+    height: 25px;
     text-align: center;
-}
+  }
