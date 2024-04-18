@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(180deg, black, #492768,#9771bb, #15e9eb,#15e9eb,#15e9eb, #e99db4,#f0316b, black);
+    margin: 0 auto;
+    background-size: 120% 120%;
+}
+
+h1 {
+    text-align: center;
+    color:  #15e9eb;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Raleway',sans-serif
+}
+
+form {
+    background-color: rgba(0, 255, 255, 0.219);
+    margin: 0 auto;
+    text-align: center border 1px solid rgb(9, 95, 153);
+    font-family: 'Poppins',sans-serif;
+    width: 650px;
+    height: 890px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 4%;
+    color: rgb(40, 50, 80);
+}
+
+.img-container {
+    text-align: center;
+}
